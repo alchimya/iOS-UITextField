@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-
 #import "L3SDKTextField.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet L3SDKTextField *emailTextField;
@@ -15,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet L3SDKTextField *integerTextField;
 @property (weak, nonatomic) IBOutlet L3SDKTextField *decimalTextField;
 @property (weak, nonatomic) IBOutlet L3SDKTextField *creditCardTextField;
+@property (weak, nonatomic) IBOutlet L3SDKTextField *simpleTextField;
 
 -(IBAction)validate:(id)sender;
 @end
@@ -50,6 +50,10 @@
     self.creditCardTextField.validationType=L3SDKTextFieldValidationTypeCreditCard;
     self.creditCardTextField.validationErrorBackgroundColor=[UIColor redColor];
     self.creditCardTextField.validationMessage=@"Please insert a valid credit card number";
+    
+    
+    //MAX LENGTH TEST
+    self.simpleTextField.maxLength=2;
     
 }
 -(IBAction)validate:(id)sender{
