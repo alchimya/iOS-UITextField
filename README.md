@@ -22,7 +22,7 @@ validate                | BOOL            | it allows to validate date
 
 <h5>enumerations</h5>
 
-```javascript
+```objectivec
 typedef NS_ENUM(NSInteger, L3SDKTextFieldValidationType) {
     L3SDKTextFieldValidationTypeNone,
     L3SDKTextFieldValidationTypeInteger,
@@ -34,7 +34,7 @@ typedef NS_ENUM(NSInteger, L3SDKTextFieldValidationType) {
 ```
 
 <h5>examples</h5>
-```javascript
+```objectivec
 
     //EMAIL
     self.emailTextField.validationType=L3SDKTextFieldValidationTypeEMail;
