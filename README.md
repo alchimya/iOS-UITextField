@@ -69,5 +69,5 @@ typedef NS_ENUM(NSInteger, L3SDKTextFieldValidationType) {
 ```
 <!--
 <br/>
-![ScreenShot](https://raw.github.com/alchimya/anglular-tooltip/master/screenshots/anglular-tooltip.gif)
+![ScreenShot](https://raw.github.com/alchimya/iOS-UITextField/master/screenshots/iOS-UITextField.gif)
 -->
