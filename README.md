@@ -67,7 +67,6 @@ typedef NS_ENUM(NSInteger, L3SDKTextFieldValidationType) {
     self.simpleTextField.maxLength=2;
 
 ```
-<!--
+
 <br/>
 ![ScreenShot](https://raw.github.com/alchimya/iOS-UITextField/master/screenshots/iOS-UITextField.gif)
--->
