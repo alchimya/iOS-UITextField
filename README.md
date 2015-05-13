@@ -18,7 +18,7 @@ regularExpression             | NSString                    | it allows to set a
 <h5>methods</h5>
   name                  |     type        |   description    
 --------------          | ----------------|-------------------------------------------------------------------
-validate                | BOOL            | it allows to validate date
+validate                | BOOL            | it allows to validate input data
 
 <h5>enumerations</h5>
 
