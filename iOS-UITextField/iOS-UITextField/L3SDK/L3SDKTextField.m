@@ -235,7 +235,7 @@
 }
 //decimal
 -(BOOL)isValidDecimalNumber:(NSString*)text{
-    NSString *regex=self.regularExpression ? self.regularExpression : @"^\\d*\\.\\d+$";
+    NSString *regex=self.regularExpression ? self.regularExpression : @"^[-+]?\\d*\\.\\d+$";
     return [self validateWithText:text withRegularExpression:regex];
 }
 
